@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kwalidade - Login</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+  </head>
+
+  <body>
+    <nav>
+      <a href="../index.html" class="return-form">
+        <img src="../img/volta_pagina.png" alt="Voltar para Home" />
+      </a>
+    </nav>
+
+    <main>
+      <section>
+        <h2 class="form-tittle">Login</h2>
+
+        <article>
+          <form
+            action="../index.html"
+            onsubmit="
+              alert('Tudo certo!');
+              return true;
+            "
+          >
+            <label for="email">
+              Email:
+              <input
+                type="email"
+                id="email"
+                placeholder="Digite seu email"
+                maxlength="100"
+                required
+              />
+            </label>
+
+            <label for="password">
+              Senha:
+              <input
+                type="password"
+                id="password"
+                placeholder="Digite sua senha"
+                maxlength="70"
+                required
+              />
+            </label>
+
+            <div id="form-link">
+              <a href="esqueci_senha.html">Esqueci minha senha</a>
+
+              <a href="cadastro.html">Não tem cadastro? Cadastre-se</a>
+            </div>
+
+            <button type="submit">Entrar</button>
+          </form>
+
+          <img src="../img/login.png" alt="Imagem de login" />
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <h2 class="logo">Kwalidade</h2>
+
+      <p>&copy;Todos os direitos reservados 2026</p>
+    </footer>
+  </body>
+</html>

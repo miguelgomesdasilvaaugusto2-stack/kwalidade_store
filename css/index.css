@@ -1,0 +1,89 @@
+#inicio {
+    scroll-margin-top: 1000px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+    width: 100%;
+    padding: 3%;
+
+    background-color: #fff;
+}
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    align-items: center;
+
+}
+article img {
+    background: linear-gradient(360deg, #fa8500, #fff);
+    padding: 50px;
+    border-radius: 250px;
+}
+
+.product-name, #h2-section {
+    font-family: "Fahkwang", sans-serif;
+    font-style: normal;
+}
+
+.product-name {
+    font-weight: 400;
+}
+
+#h2-section {
+    font-weight: 700;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+.produto-valor {
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    background-color: #fa8500;
+    color: white;
+
+    padding: 10px;
+    border-radius: 50px;
+
+    transition: padding 0.3s ease, transform 0.4s ease, font-size 0.3s ease;
+}
+button:hover {
+    padding: 15px;
+    font-size: 15px;
+    transform: translateY(-10px);
+}
+
+button:active {
+    padding: 5px;
+    font-size: 5px;
+}
